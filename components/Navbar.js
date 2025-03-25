@@ -42,6 +42,9 @@ const Navbar = () => {
       {/* Mobile Navigation */}
       <div className="md:hidden">
         <Sheet >
+            <span className="mx-2">
+                <ModeToggle/>
+            </span>
           <SheetTrigger asChild>
             <Button variant="ghost" size="icon">
               <Menu className="h-6 w-6" />
@@ -49,7 +52,7 @@ const Navbar = () => {
           </SheetTrigger>
           <SheetContent 
             side="right" 
-            className="w-[250px] bg-gray-100" 
+            className="w-[250px] bg-cyan-500" 
             overlayClassName="bg-black/20" // Lighter dim
           >
             <div className="flex flex-col space-y-4 mt-6">
