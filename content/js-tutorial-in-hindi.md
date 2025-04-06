@@ -2,14 +2,14 @@
 
 title: Javascript Tutorial in Hindi
 description: This is Javascript tutorial & this is for learning Javascript
-slug: js-tutorial-hindi
+slug: js-tutorial-in-hindi
 date: 2023-10-01
 author: XYZ
 image: /codingBlog.jpeg
 
 ---
 
-# Javascript Tutorial in Hindi
+<!-- # Javascript Tutorial in Hindi -->
 
 Welcome to this comprehensive tutorial on Javascript, designed specifically for Hindi speakers. In this blog, we will cover the fundamentals of Javascript, its syntax, and how to use it effectively in web development.
 

@@ -41,7 +41,7 @@ const BlogPage = () => {
         {blogs.map((blog) => (
           <div
             key={blog.slug}
-            className="bg-white rounded-lg shadow-md overflow-hidden"
+            className="rounded-lg shadow-md overflow-hidden"
           >
             <img
               src={blog.image}
@@ -63,7 +63,7 @@ const BlogPage = () => {
                w-22 
                rounded-lg 
                transition duration-300 ease-in-out 
-               hover:bg-gray-200 hover:border-gray-400`}
+               hover:bg-red-200 hover:border-red-400`}
               >
                 Read More
               </Link>
