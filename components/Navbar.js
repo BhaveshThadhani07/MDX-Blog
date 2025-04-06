@@ -11,9 +11,9 @@ import { ModeToggle } from "./theme-btn.js";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-4 bg-background/50 sticky top-0 border-b backdrop-blur z-10">
+    <nav className="flex justify-between items-center p-4 mx-4 bg-background/50 sticky top-0 border-b backdrop-blur z-10">
       <Link href={"/"}>
-        <div className="text-2xl font-bold">TechByBhavesh</div>
+        <div className="text-2xl font-bold">BloggerXYZ</div>
       </Link>
 
       {/* Desktop Navigation */}
@@ -36,8 +36,6 @@ const Navbar = () => {
         <ModeToggle/>
         </div>
       </div>
-
-
 
       {/* Mobile Navigation */}
       <div className="md:hidden">
